@@ -1,0 +1,168 @@
+{
+  "file": "amazon_india_2018.csv",
+  "config": "cleaning_transactions_amazon_india.json",
+  "steps": {
+    "missing": {
+      "numeric": {
+        "discount_percent": 0,
+        "discounted_price_inr": 0,
+        "quantity": 0,
+        "subtotal_inr": 0,
+        "delivery_charges": 7953,
+        "final_amount_inr": 0,
+        "order_month": 0,
+        "order_year": 0,
+        "order_quarter": 0,
+        "product_weight_kg": 0,
+        "product_rating": 0
+      },
+      "categorical": {
+        "transaction_id": 0,
+        "order_date": 0,
+        "customer_id": 0,
+        "product_id": 0,
+        "product_name": 0,
+        "category": 0,
+        "subcategory": 0,
+        "brand": 0,
+        "original_price_inr": 0,
+        "customer_city": 0,
+        "customer_state": 0,
+        "customer_tier": 0,
+        "customer_spending_tier": 0,
+        "customer_age_group": 11939,
+        "payment_method": 0,
+        "delivery_days": 0,
+        "delivery_type": 0,
+        "is_prime_member": 0,
+        "is_festival_sale": 0,
+        "festival_name": 67918,
+        "customer_rating": 30234,
+        "return_status": 0,
+        "is_prime_eligible": 0
+      }
+    },
+    "dates": {
+      "dates_converted": {
+        "order_date": 94546
+      }
+    },
+    "price": {
+      "prices_standardized": {
+        "original_price_inr": 99495
+      }
+    },
+    "ratings": {
+      "ratings_changed": 99495,
+      "ratings_imputed": 0
+    },
+    "categorical": {
+      "categories_standardized": {
+        "category": 99495
+      }
+    },
+    "geo": {
+      "geo_resolved": 65787
+    },
+    "booleans": {
+      "booleans_standardized": {
+        "is_prime_member": 99495,
+        "is_prime_eligible": 99495,
+        "is_festival_sale": 99495
+      }
+    },
+    "delivery": {
+      "delivery_changed": 99495,
+      "delivery_nullified": 829
+    },
+    "dedup": {
+      "dropped": 490,
+      "kept": 99005,
+      "missing_keys": []
+    },
+    "outliers": {
+      "corrected": 184,
+      "flagged": 0,
+      "median": 48733.08
+    },
+    "payment": {
+      "payment_standardized": 49468
+    }
+  },
+  "dq": {
+    "rows_before": 99495,
+    "rows_after": 99005,
+    "missing_before": {
+      "transaction_id": 0,
+      "order_date": 0,
+      "customer_id": 0,
+      "product_id": 0,
+      "product_name": 0,
+      "category": 0,
+      "subcategory": 0,
+      "brand": 0,
+      "original_price_inr": 0,
+      "discount_percent": 0,
+      "discounted_price_inr": 0,
+      "quantity": 0,
+      "subtotal_inr": 0,
+      "delivery_charges": 7953,
+      "final_amount_inr": 0,
+      "customer_city": 0,
+      "customer_state": 0,
+      "customer_tier": 0,
+      "customer_spending_tier": 0,
+      "customer_age_group": 11939,
+      "payment_method": 0,
+      "delivery_days": 0,
+      "delivery_type": 0,
+      "is_prime_member": 0,
+      "is_festival_sale": 0,
+      "festival_name": 67918,
+      "customer_rating": 30234,
+      "return_status": 0,
+      "order_month": 0,
+      "order_year": 0,
+      "order_quarter": 0,
+      "product_weight_kg": 0,
+      "is_prime_eligible": 0,
+      "product_rating": 0
+    },
+    "missing_after": {
+      "transaction_id": 0,
+      "order_date": 4914,
+      "customer_id": 0,
+      "product_id": 0,
+      "product_name": 0,
+      "category": 0,
+      "subcategory": 0,
+      "brand": 0,
+      "original_price_inr": 0,
+      "discount_percent": 0,
+      "discounted_price_inr": 0,
+      "quantity": 0,
+      "subtotal_inr": 0,
+      "delivery_charges": 0,
+      "final_amount_inr": 0,
+      "customer_city": 0,
+      "customer_state": 0,
+      "customer_tier": 0,
+      "customer_spending_tier": 0,
+      "customer_age_group": 0,
+      "payment_method": 0,
+      "delivery_days": 825,
+      "delivery_type": 0,
+      "is_prime_member": 0,
+      "is_festival_sale": 0,
+      "festival_name": 0,
+      "customer_rating": 0,
+      "return_status": 0,
+      "order_month": 0,
+      "order_year": 0,
+      "order_quarter": 0,
+      "product_weight_kg": 0,
+      "is_prime_eligible": 0,
+      "product_rating": 0
+    }
+  }
+}

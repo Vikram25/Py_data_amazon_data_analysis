@@ -1,0 +1,70 @@
+{
+  "file": "amazon_india_products_catalog.csv",
+  "config": "cleaning_amazon_catalog.json",
+  "steps": {
+    "missing": {
+      "numeric": {
+        "base_price_2015": 0,
+        "weight_kg": 0,
+        "rating": 0,
+        "is_prime_eligible": 0,
+        "launch_year": 0
+      },
+      "categorical": {
+        "category": 0,
+        "subcategory": 0,
+        "brand": 0,
+        "model": 0
+      }
+    },
+    "dates": {
+      "dates_converted": {}
+    },
+    "price": {
+      "prices_standardized": {
+        "base_price_2015": 2004
+      }
+    },
+    "categorical": {
+      "categories_standardized": {
+        "category": 2004,
+        "subcategory": 2004,
+        "brand": 2004,
+        "model": 2004
+      }
+    },
+    "geo": {
+      "geo_resolved": 0
+    }
+  },
+  "dq": {
+    "rows_before": 2004,
+    "rows_after": 2004,
+    "missing_before": {
+      "product_id": 0,
+      "product_name": 0,
+      "category": 0,
+      "subcategory": 0,
+      "brand": 0,
+      "base_price_2015": 0,
+      "weight_kg": 0,
+      "rating": 0,
+      "is_prime_eligible": 0,
+      "launch_year": 0,
+      "model": 0
+    },
+    "missing_after": {
+      "product_id": 0,
+      "product_name": 0,
+      "category": 0,
+      "subcategory": 0,
+      "brand": 0,
+      "base_price_2015": 0,
+      "weight_kg": 0,
+      "rating": 0,
+      "is_prime_eligible": 0,
+      "launch_year": 0,
+      "model": 0
+    }
+  }
+}
